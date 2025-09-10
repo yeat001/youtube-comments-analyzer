@@ -2,9 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    serverActions: true,
-  },
   env: {
     YOUTUBE_API_KEY: process.env.YOUTUBE_API_KEY,
     TRANSLATE_API_URL: process.env.TRANSLATE_API_URL,

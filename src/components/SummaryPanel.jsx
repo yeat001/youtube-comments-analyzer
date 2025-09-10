@@ -416,7 +416,7 @@ export default function SummaryPanel({ summary, comments, onGenerateSummary }) {
           ) : (
             <div className="text-center py-8">
               <Sparkles className="w-8 h-8 text-gray-300 mx-auto mb-3" />
-              <p className="text-gray-500">点击"生成总结"开始AI分析</p>
+              <p className="text-gray-500">点击&quot;生成总结&quot;开始AI分析</p>
               <p className="text-gray-400 text-sm mt-1">
                 根据评论内容智能分析用户反馈和改进建议
               </p>
